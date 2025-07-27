@@ -5,6 +5,7 @@ import './App.css'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Container from './components/conatiner'
+import Skills from './components/Skills'
 
 function App() {
  
@@ -14,6 +15,7 @@ function App() {
     <Container>
       <Navbar/>
       <Hero/>
+      <Skills/>
     </Container>
 
     </>

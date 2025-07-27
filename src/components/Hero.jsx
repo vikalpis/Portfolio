@@ -1,8 +1,8 @@
 import pic from '../assets/pic1.jpg';
 
 export default function Hero() {
-  return (<div className='flex justify-center'>
-    <div className='bg-red-200 w-158'>
+  return (<div>
+    <div className='bg-red-200 w-full flex align-center'>
 
         <div className="flex flex-col py-10">
       <img
@@ -12,15 +12,15 @@ export default function Hero() {
       />
 
       <h1 className="mt-4 text-3xl sm:text-4xl font-bold tracking-tight ">
-        HI, I'm Vikalp
+        Hi, I'm Vikalp
       </h1>
-      <h1 className="mt-4 sm:text-xl tracking-tighter leading-0.5 ">
+      <h1 className="mt-4 text-md sm:text-2xl font-medium tracking-tighter leading-1 ">
         21, Rewa | MERN Stack Developer
       </h1>
       <br />
-      <h1 className='leading-tight tracking-tighter'>
+      <p className="leading-tight tracking-tighter mt-4 text-sm sm:text-xl text-justify">
       Computer Science undergraduate with a solid foundation in software development. Proficient in JavaScript, React.js, Express, and MongoDB, with experience in building and deploying responsive, full-stack web applications. Skilled in developing RESTful APIs, managing state with modern libraries, and implementing secure user authentication. Familiar with tools like Git, Postman, and modern UI frameworks such as Tailwind CSS.
-      </h1>
+      </p>
     </div>
     </div>
     </div>
