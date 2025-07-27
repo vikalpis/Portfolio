@@ -4,6 +4,8 @@ export default function Skills(){
 
     return(
         <>
+        <div className="font-bold text-3xl ">Skills</div>
+        <br />
         <div className="gap-6">
        
         
