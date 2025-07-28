@@ -7,6 +7,8 @@ import Hero from './components/Hero'
 import Container from './components/conatiner'
 import Skills from './components/Skills'
 import Project from './components/Project'
+import Footer from './components/Footer'
+import Blog from './components/Blog'
 
 function App() {
  
@@ -18,6 +20,8 @@ function App() {
       <Hero/>
       <Skills/>
       <Project/>
+      <Blog/>
+      <Footer/>
     </Container>
 
     </>

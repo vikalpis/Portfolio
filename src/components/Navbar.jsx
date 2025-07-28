@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Home, HomeIcon } from "lucide-react";
 
 export default function Navbar() {
   const [showNavbar, setShowNavbar] = useState(false);
@@ -18,7 +19,7 @@ export default function Navbar() {
           rounded-full bg-black text-white px-10 py-4 flex gap-16 shadow-2xl
         `}
       >
-        <div className="transition-transform duration-300 hover:scale-110 cursor-pointer">Home</div>
+        <div className="transition-transform duration-300 hover:scale-110 cursor-pointer"><HomeIcon/></div>
         <div className="transition-transform duration-300 hover:scale-110 cursor-pointer">About</div>
         <div className="transition-transform duration-300 hover:scale-110 cursor-pointer">Projects</div>
         <div className="transition-transform duration-300 hover:scale-110 cursor-pointer">Blogs</div>
