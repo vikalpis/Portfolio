@@ -8,7 +8,7 @@ export default function Project(){
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
 
  {/*1st */}           
-  <div className="transition-all duration-500 hover:scale-105 cursor-pointer w-full h-64 bg-green-400 rounded-3xl">
+  <div className="transition-all duration-500 hover:scale-105 cursor-pointer w-full bg-green-400 rounded-3xl">
     <p className="font-bold text-lg p-4 pt-8 ">
       Project Name
     </p>
@@ -18,13 +18,13 @@ export default function Project(){
     </p>
 
     {/* Button container with spacing and responsive left margin */}
-    <div className="flex gap-4 ml-4 sm:ml-4 md:ml-8 mt-2">
+    <div className="flex gap-4 ml-4 sm:ml-4 md:ml-8 mb-2.5 ">
       <button className="bg-red-400 rounded-lg p-2">View Code</button>
       <button className="bg-red-400 rounded-lg p-2">View Demo</button>
     </div>
   </div>
  {/*2nd */}
-  <div className="transition-all duration-500 hover:scale-105 cursor-pointer w-full h-64 bg-green-400 rounded-3xl">
+  <div className="transition-all duration-500 hover:scale-105 cursor-pointer w-full  bg-green-400 rounded-3xl">
     <p className="font-bold text-lg p-4 pt-8 ">
       Project Name
     </p>
@@ -34,14 +34,14 @@ export default function Project(){
     </p>
 
     {/* Button container with spacing and responsive left margin */}
-    <div className="flex gap-4 ml-4 sm:ml-4 md:ml-8 mt-2">
+    <div className="flex gap-4 ml-4 sm:ml-4 md:ml-8 mb-2.5">
       <button className="bg-red-400 rounded-lg p-2">View Code</button>
       <button className="bg-red-400 rounded-lg p-2">View Demo</button>
     </div>
   </div>
 
 {/*3rd */}
-  <div className="transition-all duration-500 hover:scale-105 cursor-pointer w-full h-64 bg-green-400 rounded-3xl">
+  <div className="transition-all duration-500 hover:scale-105 cursor-pointer w-full bg-green-400 rounded-3xl">
     <p className="font-bold text-lg p-4 pt-8 ">
       Project Name
     </p>
@@ -51,14 +51,14 @@ export default function Project(){
     </p>
 
     {/* Button container with spacing and responsive left margin */}
-    <div className="flex gap-4 ml-4 sm:ml-4 md:ml-8 mt-2">
+    <div className="flex gap-4 ml-4 sm:ml-4 md:ml-8 mb-2.5">
       <button className="bg-red-400 rounded-lg p-2">View Code</button>
       <button className="bg-red-400 rounded-lg p-2">View Demo</button>
     </div>
   </div>
 
 {/*4th */}
-  <div className="transition-all duration-500 hover:scale-105 cursor-pointer w-full h-64 bg-green-400 rounded-3xl">
+  <div className="transition-all duration-500 hover:scale-105 cursor-pointer w-full bg-green-400 rounded-3xl">
     <p className="font-bold text-lg p-4 pt-8 ">
       Project Name
     </p>
@@ -68,7 +68,7 @@ export default function Project(){
     </p>
 
     {/* Button container with spacing and responsive left margin */}
-    <div className="flex gap-4 ml-4 sm:ml-4 md:ml-8 mt-2">
+    <div className="flex gap-4 ml-4 sm:ml-4 md:ml-8 mb-2">
       <button className="bg-red-400 rounded-lg p-2">View Code</button>
       <button className="bg-red-400 rounded-lg p-2">View Demo</button>
     </div>
