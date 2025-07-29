@@ -2,7 +2,7 @@ import pic from '../assets/pic1.jpg';
 
 export default function Hero() {
   return (<div>
-    <div className='bg-red-200 w-full flex align-center'>
+    <div className='bg-transparent w-full flex align-center text-white'>
 
         <div className="flex flex-col py-10">
       <img

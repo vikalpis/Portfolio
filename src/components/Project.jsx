@@ -3,12 +3,12 @@ export default function Project(){
 
     return (
         <>
-        <div className="font-bold text-3xl ">Projects</div>
-        <br />
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+        <div className="font-bold text-3xl leading-loose bg-transparent text-white">Projects</div>
+        
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-white bg-transparent">
 
  {/*1st */}           
-  <div className="transition-all duration-500 hover:scale-105 cursor-pointer w-full bg-green-400 rounded-3xl">
+  <div className="transition-all duration-500 hover:scale-105 cursor-pointer w-full bg-black border rounded-3xl">
     <p className="font-bold text-lg p-4 pt-8 ">
       Project Name
     </p>
@@ -24,7 +24,7 @@ export default function Project(){
     </div>
   </div>
  {/*2nd */}
-  <div className="transition-all duration-500 hover:scale-105 cursor-pointer w-full  bg-green-400 rounded-3xl">
+  <div className="transition-all duration-500 hover:scale-105 cursor-pointer w-full  bg-black border rounded-3xl">
     <p className="font-bold text-lg p-4 pt-8 ">
       Project Name
     </p>
@@ -41,7 +41,7 @@ export default function Project(){
   </div>
 
 {/*3rd */}
-  <div className="transition-all duration-500 hover:scale-105 cursor-pointer w-full bg-green-400 rounded-3xl">
+  <div className="transition-all duration-500 hover:scale-105 cursor-pointer w-full bg-black border rounded-3xl">
     <p className="font-bold text-lg p-4 pt-8 ">
       Project Name
     </p>
@@ -58,7 +58,7 @@ export default function Project(){
   </div>
 
 {/*4th */}
-  <div className="transition-all duration-500 hover:scale-105 cursor-pointer w-full bg-green-400 rounded-3xl">
+  <div className="transition-all duration-500 hover:scale-105 cursor-pointer w-full bg-black border  rounded-3xl">
     <p className="font-bold text-lg p-4 pt-8 ">
       Project Name
     </p>
