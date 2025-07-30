@@ -8,7 +8,7 @@ export default function Project(){
         <>
         <div className="font-bold text-3xl leading-loose bg-transparent text-white px-2">Projects</div>
         
-        <div className={`grid grid-cols-1 sm:grid-cols-2 gap-4 text-white bg-transparent px-2 `}>
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-white bg-transparent px-2">
 
  {/*1st */}           
   <div className= "transition-all duration-500 hover:scale-105 cursor-pointer w-full bg-black border rounded-3xl  hover:bg-gradient-to-br from-white/55 to-black ">
