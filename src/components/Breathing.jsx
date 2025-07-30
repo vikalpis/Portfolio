@@ -9,7 +9,7 @@ export default function BreathingBackground() {
       className="absolute inset-0 z-0"
       animate={{
         scale: [1, 1.03, 1],
-        opacity: [0.7, 1, 0.7],
+        opacity: [1, 1, 1],
       }}
       transition={{
         duration: 8,

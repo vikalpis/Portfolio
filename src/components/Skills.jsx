@@ -4,7 +4,7 @@ export default function Skills(){
 
     return(
         <>
-        <div className="font-bold text-3xl text-white bg-transparent leading-loose ">Skills</div>
+        <div className="font-bold text-3xl text-white bg-transparent leading-loose px-2 ">Skills</div>
         
         <div className="gap-6 bg-transparent ">
        
