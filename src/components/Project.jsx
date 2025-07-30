@@ -3,11 +3,7 @@ import {  Link, MoveUpRight } from "lucide-react";
 
 
 export default function Project(){
-  const [visible, setVisible] = useState(false);
-
-  useEffect(()=>{
-    setTimeout(() => setVisible(true), 500);
-  },[])
+  
     return (
         <>
         <div className="font-bold text-3xl leading-loose bg-transparent text-white px-2">Projects</div>
@@ -15,7 +11,7 @@ export default function Project(){
         <div className={`grid grid-cols-1 sm:grid-cols-2 gap-4 text-white bg-transparent px-2 `}>
 
  {/*1st */}           
-  <div className={`transition-all duration-500 hover:scale-105 cursor-pointer w-full bg-black border rounded-3xl ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"} hover:bg-gradient-to-br from-white/55 to-black `}>
+  <div className= "transition-all duration-500 hover:scale-105 cursor-pointer w-full bg-black border rounded-3xl  hover:bg-gradient-to-br from-white/55 to-black ">
     <p className="font-bold text-lg p-4 pt-8 ">
       TrackMyMood
     </p>
@@ -30,7 +26,7 @@ export default function Project(){
     </div>
   </div>
  {/*2nd */}
- <div className={`transition-all duration-500 hover:scale-105 cursor-pointer w-full bg-black border rounded-3xl ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"} hover:bg-gradient-to-br from-white/55 to-black`}>
+ <div className="transition-all duration-500 hover:scale-105 cursor-pointer w-full bg-black border rounded-3xl hover:bg-gradient-to-br from-white/55 to-black">
  <p className="font-bold text-lg p-4 pt-8 ">
       To-Do
     </p>
@@ -46,7 +42,7 @@ export default function Project(){
   </div>
 
 {/*3rd */}
-<div className={`transition-all duration-500 hover:scale-105 cursor-pointer w-full bg-black border rounded-3xl ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"} hover:bg-gradient-to-br from-white/55 to-black`}>
+<div className= "transition-all duration-500 hover:scale-105 cursor-pointer w-full bg-black border rounded-3xl  hover:bg-gradient-to-br from-white/55 to-black">
   <p className="font-bold text-lg p-4 pt-8 ">
       Blog App
     </p>
@@ -61,7 +57,7 @@ export default function Project(){
   </div>
 
 {/*4th */}
-<div className={`transition-all duration-500 hover:scale-105 cursor-pointer w-full bg-black border rounded-3xl ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"} hover:bg-gradient-to-br from-white/55 to-black`}>
+<div className=" transition-all duration-500 hover:scale-105 cursor-pointer w-full bg-black border rounded-3xl hover:bg-gradient-to-br from-white/55 to-black">
   <p className="font-bold text-lg p-4 pt-8 ">
      Course Selling App
     </p>
