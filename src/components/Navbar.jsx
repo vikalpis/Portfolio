@@ -30,7 +30,7 @@ export default function Navbar() {
   ];
 
   return (
-    <div className="hidden sm:flex justify-center mt-4">
+    <div className="hidden sm:flex justify-center mt-4 ">
       <motion.div
         initial={{ y: -80, opacity: 0 }}
         animate={showNavbar ? { y: 0, opacity: 1 } : {}}
@@ -41,7 +41,7 @@ export default function Navbar() {
           setIsNavbarHovered(false);
           setHoveredIconIndex(null);
         }}
-        className="rounded-full bg-black text-white px-10 py-4 flex gap-16 shadow-2xl"
+        className="rounded-full bg-black text-white px-10 py-4 flex gap-16 shadow-2xl "
       >
         {icons.map((icon, index) => (
           <motion.div

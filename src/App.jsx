@@ -11,17 +11,19 @@ import Footer from './components/Footer'
 import Blog from './components/Blog'
 import { motion } from 'motion/react'
 import BreathingBackground from './components/Breathing'
+import Resume from './components/Resume'
 
 function App() {
  
 
   return (
     <>
-    <div className='relative overflow-hidden min-h-screen'>
+    <div className='relative overflow-hidden min-h-screen scroll-smooth'>
     
     <Container>
       <Navbar/>
       <Hero/>
+      <Resume/>
       <Skills/>
       <Project/>
       <Blog/>
