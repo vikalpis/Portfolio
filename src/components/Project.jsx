@@ -17,65 +17,61 @@ export default function Project(){
  {/*1st */}           
   <div className={`transition-all duration-500 hover:scale-105 cursor-pointer w-full bg-black border rounded-3xl ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"} hover:bg-gradient-to-br from-white/55 to-black `}>
     <p className="font-bold text-lg p-4 pt-8 ">
-      Project Name
+      TrackMyMood
     </p>
     
     <p className="p-4 leading-tight text-justify text-white/85">
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit, eaque sapiente voluptas ullam officia amet nesciunt laboriosam vol
+    TrackMyMood is a web application that helps users log and track their daily moods. It provides visual insights, supports mental health awareness, and promotes emotional well-being through interactive charts, mood entries, and an intuitive, user-friendly interface.
     </p>
 
     <div className="flex gap-4 ml-4 sm:ml-4 md:ml-8 mb-2.5 ">
-      <button className="transition-all duration-500 hover:scale-x-125 rounded-lg p-2 bg-transparent"><Link/></button>
-      <button className="transition-all duration-500 hover:scale-x-125 rounded-lg p-2 bg-transparent"><MoveUpRight/></button>
+      <a href="https://github.com/vikalpis/TrackMyMood" target="_blank" className="transition-all duration-500 hover:scale-x-125 rounded-lg p-2 bg-transparent"><Link/></a>
+      <a href="https://track-my-mood-lac.vercel.app/" target="_blank" className="transition-all duration-500 hover:scale-x-125 rounded-lg p-2 bg-transparent"><MoveUpRight/></a>
     </div>
   </div>
  {/*2nd */}
  <div className={`transition-all duration-500 hover:scale-105 cursor-pointer w-full bg-black border rounded-3xl ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"} hover:bg-gradient-to-br from-white/55 to-black`}>
  <p className="font-bold text-lg p-4 pt-8 ">
-      Project Name
+      To-Do
     </p>
     
     <p className="p-4 leading-tight text-justify text-white/85">
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit, eaque sapiente voluptas ullam officia amet nesciunt laboriosam vol
-    </p>
+    To-Do is a simple and efficient task management web app built with ReactJS. It allows users to create, read, update, and delete daily tasks, helping improve personal productivity through a clean interface and responsive user experience.    </p>
 
     
     <div className="flex gap-4 ml-4 sm:ml-4 md:ml-8 mb-2.5">
-    <button className="transition-all duration-500 hover:scale-x-125 rounded-lg p-2 bg-transparent"><Link/></button>
-    <button className="transition-all duration-500 hover:scale-x-125 rounded-lg p-2 bg-transparent"><MoveUpRight/></button>
+    <a href="https://github.com/vikalpis/To-Do" target="_blank" className="transition-all duration-500 hover:scale-x-125 rounded-lg p-2 bg-transparent"><Link/></a>
+    <a href="https://to-do-zeta-five.vercel.app/" target="_blank" className="transition-all duration-500 hover:scale-x-125 rounded-lg p-2 bg-transparent"><MoveUpRight/></a>
     </div>
   </div>
 
 {/*3rd */}
 <div className={`transition-all duration-500 hover:scale-105 cursor-pointer w-full bg-black border rounded-3xl ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"} hover:bg-gradient-to-br from-white/55 to-black`}>
   <p className="font-bold text-lg p-4 pt-8 ">
-      Project Name
+      Blog App
     </p>
     
     <p className="p-4 leading-tight text-justify text-white/85">
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit, eaque sapiente voluptas ullam officia amet nesciunt laboriosam vol
-    </p>
+    BlogApp is a full-stack blogging platform built with ReactJS and Appwrite. It enables users to create, edit, and delete blog posts with ease. Featuring a modern UI and secure backend integration, it showcases seamless content management functionality.    </p>
 
     <div className="flex gap-4 ml-4 sm:ml-4 md:ml-8 mb-2.5">
-    <button className="transition-all duration-500 hover:scale-x-125 rounded-lg p-2 bg-transparent"><Link/></button>
-    <button className="transition-all duration-500 hover:scale-x-125 rounded-lg p-2 bg-transparent"><MoveUpRight/></button>
+    <a href="https://github.com/vikalpis/BlogApp" target="_blank" className="transition-all duration-500 hover:scale-x-125 rounded-lg p-2 bg-transparent"><Link/></a>
+    <a href="https://blog-app-two-green-11.vercel.app/" target="_blank" className="transition-all duration-500 hover:scale-x-125 rounded-lg p-2 bg-transparent"><MoveUpRight/></a>
     </div>
   </div>
 
 {/*4th */}
 <div className={`transition-all duration-500 hover:scale-105 cursor-pointer w-full bg-black border rounded-3xl ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"} hover:bg-gradient-to-br from-white/55 to-black`}>
   <p className="font-bold text-lg p-4 pt-8 ">
-      Project Name
+     Course Selling App
     </p>
     
     <p className="p-4 leading-tight text-justify text-white/85">
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit, eaque sapiente voluptas ullam officia amet nesciunt laboriosam vol
-    </p>
+    This is the backend of a course-selling platform built using JavaScript, Express.js, MongoDB, and Zod for schema validation. It handles user authentication, course creation, purchase logic, and API routing for a smooth and secure learning platform experience.    </p>
 
-    {/* Button container with spacing and responsive left margin */}
     <div className="flex gap-4 ml-4 sm:ml-4 md:ml-8 mb-2">
-    <button className="transition-all duration-500 hover:scale-x-125 rounded-lg p-2 bg-transparent "><Link/></button>
-    <button className="transition-all duration-500 hover:scale-x-125 rounded-lg p-2 bg-transparent"><MoveUpRight/></button>
+    <a href="https://github.com/vikalpis/Course-Selling-App" target="_blank" className="transition-all duration-500 hover:scale-x-125 rounded-lg p-2 bg-transparent "><Link/></a>
+    <a href="https://github.com/vikalpis/Course-Selling-App" target="_blank" className="transition-all duration-500 hover:scale-x-125 rounded-lg p-2 bg-transparent"><MoveUpRight/></a>
     </div>
   </div>
 </div>
