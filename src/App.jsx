@@ -24,7 +24,7 @@ function App() {
     <Container>
       <Navbar/>
       <Hero/>
-      <Resume/>
+      {/* <Resume/> */}
       <Skills/>
       <Project/>
       <Blog/>
