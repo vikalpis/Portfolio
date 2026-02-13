@@ -15,11 +15,11 @@ export default function Hero() {
         Hi, I'm Vikalp
       </h1>
       <h1 className="mt-4 text-md sm:text-2xl font-medium tracking-tighter leading-1 text-white/90 ">
-        21, Rewa | MERN Stack Developer
+        21, Rewa | Web🕸️Developer
       </h1>
       <br />
       <p className="leading-tight tracking-tighter mt-4 text-sm sm:text-xl text-justify text-white/70">
-      Computer Science undergraduate with a solid foundation in software development. Proficient in JavaScript, React.js, Express, and MongoDB, with experience in building and deploying responsive, full-stack web applications. Skilled in developing RESTful APIs, managing state with modern libraries, and implementing secure user authentication. Familiar with tools like Git, Postman, and modern UI frameworks such as Tailwind CSS.
+      Computer Science undergraduate with a solid foundation in software development. Proficient in JavaScript, Typescript, React.js, Express, and MongoDB, with experience in building and deploying responsive, full-stack web applications. Skilled in developing RESTful APIs, managing state with modern libraries, and implementing secure user authentication. Familiar with tools like Git, Postman, and modern UI frameworks such as Tailwind CSS.
       </p>
     </div>
     </div>

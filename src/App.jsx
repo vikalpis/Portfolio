@@ -12,6 +12,7 @@ import Blog from './components/Blog'
 import { motion } from 'motion/react'
 import BreathingBackground from './components/Breathing'
 import Resume from './components/Resume'
+import ParticlesComponent from './components/Particle'
 
 function App() {
  
@@ -29,7 +30,8 @@ function App() {
       <Blog/>
       <Footer/>
     </Container>
-    <BreathingBackground/>
+    {/* <BreathingBackground/> */}
+    <ParticlesComponent/>
 </div>
     </>
   )

@@ -41,7 +41,7 @@ export default function Navbar() {
           setIsNavbarHovered(false);
           setHoveredIconIndex(null);
         }}
-        className="rounded-full bg-black text-white px-10 py-4 flex gap-16 shadow-2xl "
+        className="rounded-full bg-transparent text-white px-10 py-4 flex gap-16 shadow-2xl "
       >
         {icons.map((icon, index) => (
           <motion.div
